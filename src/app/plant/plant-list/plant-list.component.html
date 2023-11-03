@@ -1,0 +1,33 @@
+<h1>Vivero El Otoño</h1>
+<hr>
+
+<img src="/assets/vivero.png" alt="">
+
+<hr>
+
+
+<div class="tabla-contnenedor">
+  <table class="table p-3">
+    <thead class="table-dark">
+        <tr class="plant-header">
+          <th scope="col">#</th>
+          <th scope="col">Nombre común</th>
+          <th scope="col">Tipo</th>
+          <th scope="col">Clima</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="plant" *ngFor="let plant of plants">
+          <th class="id" scope="row">{{ plant.id }}</th>
+          <td class="nombre-comun">{{ plant.nombre_comun }}</td>
+          <td class="tipo">{{ plant.tipo }}</td>
+          <td class="clima">{{ plant.clima }}</td>
+        </tr>
+      </tbody>
+      <caption>
+        <p>Total plantas de interior: {{ plantasInterior }}</p>
+        <p>Total plantas de exterior: {{ plantasExterior }}</p>      
+      </caption>
+  </table>
+    
+</div>

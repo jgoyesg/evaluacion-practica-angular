@@ -1,0 +1,26 @@
+thead {
+    background-color: #333;
+    color: white;
+}
+img {
+    max-width: 100%;
+    border: #333 solid 1px;
+    box-shadow: 3px 8px 6px -3px rgba(0,0,0,0.3);
+}
+h1{
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;    
+}
+table{
+    width: 65%;
+}
+p{
+    margin: 0;
+}
+.tabla-contnenedor{
+    padding-left: 10px;
+}
+hr{
+    margin-left: 10px;
+    margin-right: -10px;
+}
